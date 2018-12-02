@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+#draw {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#menu {
+    position: absolute;
+    height: 2em;
+    width: 50%;
+    background-color: green;
+    margin-left: 25%;
+    bottom: 0%;
+}
+
+.menuButton {
+    height: 100%;
+    width: 8%;
+    border: none;
+    font-weight: bold;
+    background-color: green;
+    vertical-align: middle;
+    font-size: 1.3em;
+    outline: none;
+    border-radius: 50%;
+}
+
+button.menuButton:active {
+    transform: translateY(2px)
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: blue;
+}
